@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waroeng Mie Jagoan</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar Start -->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo"><span>Mie</span> <span>Jagoan</span></a>
+
+        <div class="navbar-nav">
+            <a href="#">Beranda</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Kontak</a>
+        </div>
+
+        <div class="navbar-extra">
+            <a href="#" id="search-button"><i data-feather="search"></i></a>
+            <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+
+        <!--  Search Form Start -->
+          <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box"><i data-feather="search"></i></label>
+          </div>
+        <!--  Search Form End -->
+        
+        <!-- Shopping Cart Start-->
+          <div class="shopping-cart">
+            <div class="cart-item">
+                <img src="mie1.jpg" alt="Mie Jagoan Original">
+                <div class="item-detail">
+                    <h3>Mie Jagoan Original</h3>
+                    <div class="item-price">IDR 15K</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+            <div class="cart-item">
+                <img src="pg1.jpg" alt="Pangsit Goreng">
+                <div class="item-detail">
+                    <h3>Pangsit Goreng</h3>
+                    <div class="item-price">IDR 13K</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+            <div class="cart-item">
+                <img src="este.jpg" alt="Es Teh">
+                <div class="item-detail">
+                    <h3>Es Teh Manis</h3>
+                    <div class="item-price">IDR 5K</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+          </div>
+        <!-- Shopping Cart End -->
+
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start-->
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Lawan Lapar Mu dengan <span>Mie</span><span>Jagoan</span></h1>
+            <p>Mie Jagoan adalah mie olahan rumahan yang memiliki cita rasa yang auntentik dengan rasa khas Nusantara.</p>
+            <a href="#" class="calltoaction">Pesan Sekarang</a>
+        </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+     <section id="about" class="about">
+        <h2><span>Tentang</span> <span>Kami</span></h2>
+
+        <div class="row">
+            <div class="about-img">
+                <img src="https://img.freepik.com/free-photo/flat-lay-noodles-bowl-composition_23-2148803822.jpg?t=st=1730386520~exp=1730390120~hmac=4ceaa63d5784afffd46e42f1dc050069c7dd01472fb03d77a4ae0e16d659fe5e&w=996" alt="Tentang Kami">
+            </div>
+            <div class="content">
+                <h3>Mengapa harus Mie Jagoan?</h3>
+                <p> Mie Jagoan diolah dan dibuat oleh chef-chef berpengalaman dibidangnya, serta didukung dengan segala aspek peralatan yang mumpuni sehingga menciptakan bentuk yang konsisten.</p>
+                <p> Mie Jagoan diolah dengan bahan-bahan khas Nusantara yang terjamin 100% berisikan bahan-bahan dari dalam negeri, hal ini semakin menambahkan sensasi cita rasa yang tiada dua dimulut masyarakat Indonesia</p>
+            </div>
+        </div>
+     </section>
+    <!-- About Section End -->
+
+    <!-- Menu Section Start -->
+        <section id="menu" class="menu">
+            <h2><span>Menu</span> <span>Kami</span></h2>
+            <p>Berikut adalah menu yang kami hidangkan</p>
+            <div class="row">
+                <div class="menu-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+                </div>
+                <div class="menu-card">
+                    <img src="mie1.jpg" alt="Mie Jagoan Original" class="menu-card-img">
+                    <h3 class="menu-card-judul"> Mie Jagoan Original</h3>
+                    <p class="menu-card-harga">IDR 15K</p>
+                    <button class="add-to-cart" 
+                    data-name="Mie Jagoan Original" 
+                    data-price="IDR 15K" 
+                    data-image="mie1.jpg">
+                    </button>
+                </div>
+                <div class="menu-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+                </div>
+                <div class="menu-card">
+                    <img src="mie1.jpg" alt="Mie Jagoan Original" class="menu-card-img">
+                    <h3 class="menu-card-judul"> Mie Jagoan Pedas</h3>
+                    <p class="menu-card-harga">IDR 15.5K</p>
+                    <button class="add-to-cart" 
+                    data-name="Mie Jagoan Pedas" 
+                    data-price="IDR 15.5K" 
+                    data-image="mie1.jpg">
+                    </button>
+                </div>
+                <div class="menu-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+                </div>
+                <div class="menu-card">
+                    <img src="pg1.jpg" alt="Mie Jagoan Original" class="menu-card-img">
+                    <h3 class="menu-card-judul"> Pangsit Goreng</h3>
+                    <p class="menu-card-harga">IDR 13K</p>
+                    <button class="add-to-cart" 
+                    data-name="Pangsit Goreng" 
+                    data-price="IDR 13K" 
+                    data-image="pg1.jpg">
+                    </button>
+                </div>
+                <div class="menu-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+                </div>
+                <div class="menu-card">
+                    <img src="uk3.jpg" alt="Udang Keju" class="menu-card-img">
+                    <h3 class="menu-card-judul"> Udang Keju</h3>
+                    <p class="menu-card-harga">IDR 13K</p>
+                    <button class="add-to-cart" 
+                    data-name="Udang Keju" 
+                    data-price="IDR 13K" 
+                    data-image="uk1.jpg">
+                    </button>
+                </div>
+                <div class="menu-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+                </div>
+                <div class="menu-card">
+                    <img src="este.jpg" alt="Es Teh Manis" class="menu-card-img">
+                    <h3 class="menu-card-judul"> Es Teh Manis</h3>
+                    <p class="menu-card-harga">IDR 5K</p>
+                    <button class="add-to-cart" 
+                    data-name="Es Teh Manis" 
+                    data-price="IDR 5K" 
+                    data-image="este.jpg">
+                    </button>
+                </div>
+                <div class="menu-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+                </div>
+                <div class="menu-card">
+                    <img src="sbuah.jpg" alt="Es Teler" class="menu-card-img">
+                    <h3 class="menu-card-judul"> Es Teler</h3>
+                    <p class="menu-card-harga">IDR 10K</p>
+                    <button class="add-to-cart" 
+                    data-name="Es Teler" 
+                    data-price="IDR 10K" 
+                    data-image="sbuah.jpg">
+                    </button>
+                </div>
+            </div>
+        </section>
+    <!-- Menu Section End -->
+    
+    <!-- Contact Section Start -->
+     <section id="contact" class="contact">
+        <h2><span>Kontak</span> <span>Kami</span></h2>
+        <p>Untuk Info lebih lanjut</p>
+
+        <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d635263.190323507!2d106.49987041813264!3d-6.2289614947157474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e1!3m2!1sid!2sid!4v1730507228838!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+            <form action="">
+                <div class="input-group">
+                    <i data-feather="user"></i>
+                    <input type="text" placeholder="nama"> 
+                </div>
+                <div class="input-group">
+                    <i data-feather="mail"></i>
+                    <input type="text" placeholder="email"> 
+                </div>
+                <div class="input-group">
+                    <i data-feather="phone"></i>
+                    <input type="text" placeholder="no telp"> 
+                </div>
+                <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+        </div>
+     </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+     <footer>
+        <div class="social">
+            <a href="https://instagram.com"><i data-feather="instagram"></i></a>
+            <a href="https://twitter.com"><i data-feather="twitter"></i></a>
+            <a href="https://facebook.com"><i data-feather="facebook"></i></a>
+        </div>
+        <div class="link"><a href="#home">Beranda</a></div>
+        <div class="link"><a href="#about">Tentang kami</a></div>
+        <div class="link"><a href="#menu">Menu</a></div>
+        <div class="link"><a href="#contact">Kontak</a></div>
+
+        <div class="credit"> <p>Created by <a href="">handraputra</a> | &copy; 2024</p></div>
+     </footer>
+    <!-- Footer End -->
+    
+    <!-- Modal Box Item Detail Start -->
+     <div class="modal" id="item-detail-modal">
+        <div class="modal-container">
+            <a href="#" class="close-icon"><i data-feather="x"></i></a>
+            <div class="modal-content">
+                <img src="mie1.jpg" alt="MMie Jagoan Original">
+                <div class="menu-card">
+                    <h3 class="menu-card-judul"> Mie Jagoan Original</h3>
+                    <p>Mie dengan kecap manis dan irisan ayam</p>
+                    <p class="menu-card-harga">IDR 15K</p>
+                    <a href="#"><i data-feather="shopping-cart"></i> <span>tambah ke keranjang</span></a>
+                    </h3>
+                </div>
+            </div>
+            <div class="modal-content">
+                <img src="mie1.jpg" alt="Mie Jagoan Pedas">
+                <div class="menu-card">
+                    <h3 class="menu-card-judul"> Mie Jagoan Pedas</h3>
+                    <p>Mie dengan bumbu cabai dan irisan ayam</p>
+                    <p class="menu-card-harga">IDR 15.5K</p>
+                    <a href="#"><i data-feather="shopping-cart"></i> <span>tambah ke keranjang</span></a>
+                    </h3>
+                </div>
+            </div>
+            <div class="modal-content">
+                <img src="pg1.jpg" alt="Pangsit Goreng">
+                <div class="menu-card">
+                    <h3 class="menu-card-judul"> Pangsit Goreng</h3>
+                    <p>Pangsit dengan isian ayam</p>
+                    <p class="menu-card-harga">IDR 13K</p>
+                    <a href="#"><i data-feather="shopping-cart"></i> <span>tambah ke keranjang</span></a>
+                    </h3>
+                </div>
+            </div>
+            <div class="modal-content">
+                <img src="uk1.jpg" alt="Udang Keju">
+                <div class="menu-card">
+                    <h3 class="menu-card-judul"> Udang Keju</h3>
+                    <p>Udang dibalut tepung crispy</p>
+                    <p class="menu-card-harga">IDR 13K</p>
+                    <a href="#"><i data-feather="shopping-cart"></i> <span>tambah ke keranjang</span></a>
+                    </h3>
+                </div>
+            </div>
+            <div class="modal-content">
+                <img src="este.jpg" alt="Es Teh Manis">
+                <div class="menu-card">
+                    <h3 class="menu-card-judul"> Es Teh Manis</h3>
+                    <p>Es teh manis Nusantara</p>
+                    <p class="menu-card-harga">IDR 5K</p>
+                    <a href="#"><i data-feather="shopping-cart"></i> <span>tambah ke keranjang</span></a>
+                    </h3>
+                </div>
+            </div>
+            <div class="modal-content">
+                <img src="sbuah.jpg" alt="Es Teler">
+                <div class="menu-card">
+                    <h3 class="menu-card-judul"> Es Teler</h3>
+                    <p>aneka macam buah dengan sirup apel</p>
+                    <p class="menu-card-harga">IDR 10K</p>
+                    <a href="#"><i data-feather="shopping-cart"></i> <span>tambah ke keranjang</span></a>
+                    </h3>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Feather Icons -->
+    <script>
+        feather.replace();
+      </script>
+
+    <!-- My Javascript -->
+     <script src="script.js"></script>
+</body>
+
+</html>

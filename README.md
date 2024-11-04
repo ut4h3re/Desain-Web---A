@@ -1,5 +1,7 @@
 Nama : Handra Putra Alma
+
 NPM : 4523210052
+
 Desain Web - A
 
 Tugas untuk memenuhi UTS membuat website responsif dengan html5, css, javascript. Tema website saya adalah usaha rumahan yang bernama “Mie Jagoan”. Tugas UTS ini bertujuan untuk memenuhi Ujian Tengah Semester pada Mata Kuliah Desain Web kelas A. Dan berikut adalah laporan terkait website “Mie Jagoan”. Website “Mie Jagoan” adalah platform online yang dirancang untuk mempromosikan dan menjual mie olahan rumahan dengan cita rasa khas Nusantara. Website ini memiliki berbagai fitur, termasuk navigasi yang mudah, menu makanan, dan formulir kontak. Pada projek website Mie Jagoan ini, saya menggunakan html5 dan css sebagai dasar, serta untuk urusan menangani interaksi dari user ke website, saya menggunakan JavaScript sebagai pembantu terkait fitur antarmuka (UI), menu navigasi, form pencarian, keranjang belanjaa dan modal.

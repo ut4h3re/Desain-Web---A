@@ -609,11 +609,43 @@ footer .credit a {
 }
 
 /* Untuk HandPhone */
+@media (max-width: 680px) {
+    html {
+        font-size: 55%;
+    }
+    .modal-container {
+        height: 140%;
+    }
+}
+@media (max-width: 562px) {
+    html {
+        font-size: 55%;
+    }
+    .modal-container {
+        height: 155%;
+    }
+}
+@media (max-width: 549px) {
+    html {
+        font-size: 55%;
+    }
+    .modal-container {
+        height: 190%;
+    }
+}
+@media (max-width: 470px) {
+    html {
+        font-size: 55%;
+    }
+    .modal-container {
+        height: 200%;
+    }
+}
 @media (max-width: 450px) {
     html {
         font-size: 55%;
     }
-    .modal-container{
-        height: 258%;
+    .modal-container {
+        height: 215%;
     }
 }
